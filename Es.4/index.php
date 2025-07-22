@@ -21,7 +21,7 @@ class Computer
 
     public function infoGet()
     {
-        echo " RAM: " . $this->ram . "\n Scheda Video: " . $this->schedavideo . "\n Processore: " . $this->processore;
+        echo " " . $this->computer . "\n" . " RAM: " . $this->ram . "\n Scheda Video: " . $this->schedavideo . "\n Processore: " . $this->processore;
     }
 }
 

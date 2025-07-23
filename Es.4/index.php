@@ -28,7 +28,7 @@ class Computer
 $computers = [];
 
 for ($i = 1; $i <= 10; $i++) {
-    $computers[$i] = new Computer('Computer' . $i, new GB(64), new Nvidia('RTX 3070 Ti'), new AMDcpu('Ryzen 5 5600X'));
+    $computers[$i] = new Computer('Computer-' . $i, new GB(64), new Nvidia('RTX 3070 Ti'), new AMDcpu('Ryzen 5 5600X'));
 }
 
 foreach ($computers as $computer) {
